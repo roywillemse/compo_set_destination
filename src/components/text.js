@@ -65,7 +65,7 @@
       <Tag className={classes.content} data-component={'Text'}>
         {!isEmpty && linkedContent}
         {isPristine && (
-          <span className={classes.placeholder}>Empty content</span>
+          <span className={classes.placeholder}>Empty content from Roy</span>
         )}
       </Tag>
     );
