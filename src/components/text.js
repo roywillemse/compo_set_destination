@@ -59,13 +59,10 @@
       <Tag
         className={classes.content}
         dangerouslySetInnerHTML={{ __html: linkedContent }}
-        data-component={useText(dataComponentAttribute) || 'Text'}
+        data-component={'Text'}
       />
     ) : (
-      <Tag
-        className={classes.content}
-        data-component={useText(dataComponentAttribute) || 'Text'}
-      >
+      <Tag className={classes.content} data-component={'Text'}>
         {!isEmpty && linkedContent}
         {isPristine && (
           <span className={classes.placeholder}>Empty content</span>
